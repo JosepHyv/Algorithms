@@ -147,7 +147,7 @@ int main()
         {
             pps ult = ch[ch.size()-1];
             pps pen = ch[ch.size()-2];
-            if( sentido(ult, pen, vx[c]))
+            if( sentido(ult, pen, vx[c]) && sz(ch))
                 ch.pop_back();
             else
                 break;
